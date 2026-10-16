@@ -3,8 +3,8 @@ int main(){
     int a,n=0;
     printf("enter the number");
     scanf("%d",&a);
-    printf("the first odd natural number from 1 to %d are \n",a);
-    for(int i=1;i<=a;i++){
+    printf("the first odd natural number from %d to 1 are \n",a);
+    for(int i=a;i>=1;i--){
         if(i%2!=0){
             printf("%d ",i);
         }
